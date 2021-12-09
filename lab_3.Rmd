@@ -1,0 +1,82 @@
+---
+title: "Kovariacinė Analizė"
+author: "Vainius Gataveckas, Matas Gaulia, Dovydas Martinkus"
+output:
+  html_document: default
+---
+
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(warning=FALSE,message=FALSE)
+```
+
+```{r}
+library(tidyverse)
+library(car)
+library(readxl)
+library(janitor)
+
+x<-readxl::read_xlsx("HighSchool.xlsx",sheet = 1) %>% clean_names()
+```
+
+
+```{r}
+x <- x %>%
+  mutate(combined = factor(paste(parental_education,special_coaching))) %>%
+  drop_na()
+
+
+write_csv(x,"high_school_modified.csv")
+
+ggplot(x,aes(attendance,result,color=special_coaching)) + geom_point() +
+  geom_smooth(method="lm",se=FALSE) + facet_wrap(vars(parental_education)) + theme_minimal()
+
+
+ggplot(x,aes(daily_study_hours,result,color=special_coaching)) + geom_point() +
+  geom_smooth(method="lm",se=FALSE) + facet_wrap(vars(parental_education)) + theme_minimal()
+
+
+#ggplot(x,aes(x=parental_education,y=result,color=special_coaching)) + geom_boxplot() + theme_minimal()
+
+
+#ggplot(x,aes(x=parental_education,y=attendance,color=special_coaching)) +
+#  geom_boxplot() + theme_minimal() + scale_color_brewer(palette="Set2")
+```
+
+
+```{r}
+library(rstatix)
+
+anova_test(result~attendance*combined + daily_study_hours*combined,data=x,type=3, detailed=TRUE) 
+# hipoteze apie beta_i lygybe neatmetama
+
+
+anova_test(result~attendance + daily_study_hours + parental_education*special_coaching,data=x,type=3, detailed=TRUE)
+# Hpoteze apie faktoriu saveikos nebuvima neatmetama
+
+
+model <- anova_test(result~attendance + daily_study_hours + parental_education+special_coaching,data=x,type=3, detailed=TRUE)
+model
+```
+
+```{r}
+# Modelio prielaidos
+model_lm <- lm(result~attendance + daily_study_hours + parental_education+special_coaching,data=x)
+
+leveneTest(result~parental_education*special_coaching,data=x)
+shapiro.test(resid(model_lm))
+
+plot(model_lm)
+plot(cooks.distance(model_lm))
+plot(hatvalues(model_lm))
+```
+
+
+```{r}
+library(emmeans)
+
+res<- x %>% group_by(special_coaching) %>% emmeans_test(result~parental_education,covariate = c(daily_study_hours,attendance),  p.adjust.method = "bonferroni") 
+
+get_emmeans(res)
+```
+
