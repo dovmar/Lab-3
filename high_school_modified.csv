@@ -1,295 +1,295 @@
 sl_no,gender,race,parental_education,test_prep_course,special_coaching,attendance,daily_study_hours,result,combined
-1,Female,Asian,Attended college,None,No,85,16,74,Attended college No
-2,Female,African American,Attended college,Completed,Yes,89,12,90,Attended college Yes
-3,Female,Asian,Master Degree,None,Yes,94,17.5,95,Master Degree Yes
-4,Male,American,Associate Degree,None,No,65,10,67,Associate Degree No
-5,Male,African American,Attended college,None,No,80,13,78,Attended college No
-7,Female,Asian,Attended college,Completed,Yes,95,18,95,Attended college Yes
-8,Male,Asian,Attended college,None,Yes,76,11,73,Attended college Yes
-9,Male,Hispanic,High school,Completed,Yes,77,12,64,High school Yes
-10,Female,Asian,High school,None,Yes,73,10,60,High school Yes
-11,Male,African American,Associate Degree,None,No,59,16,64,Associate Degree No
-12,Male,Hispanic,Associate Degree,None,No,70,11,62,Associate Degree No
-13,Female,Asian,High school,None,No,87,15,81,High school No
-14,Male,American,Attended college,Completed,Yes,65,14,72,Attended college Yes
-15,Female,American,Master Degree,None,Yes,78,10,59,Master Degree Yes
-16,Female,African American,High school,None,Yes,69,14,75,High school Yes
-17,Male,African American,High school,None,Yes,78,15,89,High school Yes
-18,Female,Asian,High school,None,No,59,9,72,High school No
-19,Male,African American,Master Degree,Completed,No,72,13,62,Master Degree No
-20,Female,African American,Associate Degree,None,No,67,15,68,Associate Degree No
-21,Male,Hispanic,High school,None,Yes,68,16,69,High school Yes
-22,Female,Asian,Attended college,Completed,Yes,59,12,75,Attended college Yes
-23,Male,Hispanic,Attended college,None,Yes,58,11,54,Attended college Yes
-24,Female,African American,High school,None,Yes,68,13,73,High school Yes
-25,Male,Hispanic,Bachelor Degree,Completed,No,69,16,71,Bachelor Degree No
-26,Male,American,Master Degree,None,No,69,12,74,Master Degree No
-27,Male,Asian,Attended college,None,No,81,14.5,54,Attended college No
-28,Female,African American,Bachelor Degree,None,Yes,95,11,69,Bachelor Degree Yes
-29,Male,African American,High school,None,Yes,76,14,70,High school Yes
-30,Female,Hispanic,Master Degree,None,Yes,77,12,70,Master Degree Yes
-31,Female,Hispanic,Attended college,None,Yes,73,18,74,Attended college Yes
-32,Female,Asian,Attended college,None,No,59,11,65,Attended college No
-33,Female,Others,Master Degree,None,No,70,12,72,Master Degree No
-34,Male,Hispanic,Attended college,None,No,87,10,53,Attended college No
-35,Male,Others,Attended college,None,Yes,65,16,87,Attended college Yes
-36,Male,Others,Associate Degree,Completed,Yes,78,11,80,Associate Degree Yes
-37,Female,Hispanic,Associate Degree,None,Yes,69,15,81,Associate Degree Yes
-38,Female,Hispanic,High school,None,Yes,84,14,64,High school Yes
-39,Female,Hispanic,Associate Degree,Completed,No,59,10,90,Associate Degree No
-40,Male,Asian,Associate Degree,None,No,72,14,56,Associate Degree No
-41,Male,African American,Associate Degree,None,No,67,15,61,Associate Degree No
-42,Female,African American,Associate Degree,None,Yes,68,9,73,Associate Degree Yes
-43,Female,Asian,Associate Degree,None,Yes,59,16,58,Associate Degree Yes
-44,Male,Asian,Attended college,Completed,Yes,58,12,65,Attended college Yes
-45,Female,Others,Associate Degree,None,Yes,68,11.5,56,Associate Degree Yes
-46,Male,Asian,Associate Degree,None,No,69,10,54,Associate Degree No
-47,Female,American,Associate Degree,Completed,No,69,12.5,65,Associate Degree No
-48,Female,African American,High school,None,No,81,12,71,High school No
-49,Female,Hispanic,Associate Degree,Completed,Yes,95,17,74,Associate Degree Yes
-50,Male,African American,High school,Completed,Yes,76,11,84,High school Yes
-51,Male,Others,Attended college,None,Yes,77,12,55,Attended college Yes
-52,Male,Others,Associate Degree,Completed,Yes,73,10,69,Associate Degree Yes
-53,Male,African American,Attended college,None,No,59,16,58,Attended college No
-54,Male,Hispanic,High school,None,No,70,11,78,High school No
-55,Female,African American,High school,Completed,No,87,15,84,High school No
-56,Female,African American,High school,None,Yes,65,14,53,High school Yes
-57,Female,Others,Associate Degree,Completed,No,78,10,85,Associate Degree No
-58,Male,Hispanic,Associate Degree,None,No,69,14,55,Associate Degree No
-59,Male,Hispanic,Attended college,Completed,Yes,78,15,59,Attended college Yes
-60,Female,African American,High school,None,Yes,59,9,71,High school Yes
-61,Male,Others,Bachelor Degree,Completed,Yes,72,13,74,Bachelor Degree Yes
-62,Male,American,High school,None,Yes,67,15,53,High school Yes
-63,Male,American,Associate Degree,None,No,68,16,61,Associate Degree No
-64,Female,African American,Associate Degree,None,No,59,12,80,Associate Degree No
-65,Female,Hispanic,High school,None,No,58,11,58,High school No
-66,Male,Asian,High school,None,Yes,68,13,64,High school Yes
-67,Male,Hispanic,High school,None,Yes,69,8,55,High school Yes
-68,Female,African American,Attended college,None,Yes,95,16,72,Attended college Yes
-69,Male,Asian,Associate Degree,None,Yes,76,12,58,Associate Degree Yes
-70,Female,African American,Associate Degree,None,No,77,12,64,Associate Degree No
-71,Female,Hispanic,Attended college,Completed,No,73,10,74,Attended college No
-72,Male,Hispanic,Attended college,Completed,No,59,15,55,Attended college No
-74,Male,African American,High school,None,Yes,87,18,57,High school Yes
-75,Male,African American,High school,None,Yes,65,11,54,High school Yes
-76,Male,Asian,Associate Degree,None,Yes,78,12,81,Associate Degree Yes
-77,Male,Others,High school,None,Yes,69,10,56,High school Yes
-78,Male,American,Bachelor Degree,Completed,No,78,16,78,Bachelor Degree No
-79,Female,Hispanic,High school,Completed,No,59,11,74,High school No
-80,Female,Others,Master Degree,None,No,72,15,68,Master Degree No
-81,Female,Asian,Associate Degree,None,Yes,67,14,59,Associate Degree Yes
-82,Male,Asian,High school,None,Yes,68,10,56,High school Yes
-83,Male,American,Attended college,Completed,Yes,59,14,67,Attended college Yes
-84,Male,Others,Associate Degree,None,Yes,58,15,64,Associate Degree Yes
-85,Male,Hispanic,High school,None,No,68,9,69,High school No
-86,Female,African American,Attended college,None,No,95,13,80,Attended college No
-87,Female,African American,Attended college,None,No,76,15,83,Attended college No
-88,Female,Hispanic,Associate Degree,None,No,77,16,71,Associate Degree No
-89,Female,American,Attended college,None,Yes,73,12,70,Attended college Yes
-90,Female,Hispanic,High school,None,Yes,59,11,86,High school Yes
-91,Female,African American,Bachelor Degree,None,Yes,70,13,72,Bachelor Degree Yes
-92,Male,African American,High school,None,Yes,87,16,74,High school Yes
-93,Male,African American,High school,None,No,65,12,79,High school No
-94,Male,African American,Associate Degree,Completed,No,78,14.5,75,Associate Degree No
-95,Female,Asian,Attended college,None,No,69,17,86,Attended college No
-96,Male,African American,Associate Degree,Completed,Yes,78,15,81,Associate Degree Yes
-97,Male,Asian,High school,Completed,Yes,59,16,66,High school Yes
-98,Female,Others,Attended college,Completed,Yes,73,12,72,Attended college Yes
-99,Female,Hispanic,Attended college,None,Yes,67,11,67,Attended college Yes
-100,Female,Hispanic,Bachelor Degree,None,No,68,13,67,Bachelor Degree No
-101,Male,Asian,Attended college,None,No,59,8,67,Attended college No
-102,Male,Hispanic,Bachelor Degree,Completed,No,58,16,74,Bachelor Degree No
-103,Female,Hispanic,Associate Degree,None,Yes,68,12,91,Associate Degree Yes
-104,Male,Asian,High school,Completed,No,69,12.5,54,High school No
-105,Male,African American,Attended college,Completed,No,69,10,86,Attended college No
-106,Female,African American,Attended college,None,Yes,81,13,67,Attended college Yes
-107,Female,Hispanic,Master Degree,None,Yes,80,15,97,Master Degree Yes
-108,Male,Others,Associate Degree,Completed,Yes,78,16,63,Associate Degree Yes
-109,Female,Asian,Associate Degree,None,Yes,69,11,76,Associate Degree Yes
-110,Female,Asian,High school,None,No,78,12,64,High school No
-111,Female,Hispanic,Associate Degree,Completed,No,59,11,89,Associate Degree No
-112,Male,African American,High school,None,No,74,16,55,High school No
-113,Male,American,Associate Degree,None,Yes,67,11,53,Associate Degree Yes
-114,Female,Hispanic,Attended college,None,Yes,68,15,58,Attended college Yes
-115,Female,Others,Bachelor Degree,Completed,Yes,59,14,98,Bachelor Degree Yes
-116,Male,African American,High school,None,Yes,58,10,77,High school Yes
-117,Female,Asian,Bachelor Degree,None,No,68,14,85,Bachelor Degree No
-118,Female,Hispanic,Bachelor Degree,None,No,95,15,82,Bachelor Degree No
-119,Female,Hispanic,High school,None,No,76,9,63,High school No
-120,Female,African American,Attended college,None,Yes,77,13,69,Attended college Yes
-121,Female,African American,Bachelor Degree,Completed,Yes,73,15,92,Bachelor Degree Yes
-122,Male,Asian,Associate Degree,Completed,Yes,59,16,89,Associate Degree Yes
-123,Female,African American,Attended college,Completed,Yes,70,14,93,Attended college Yes
-124,Male,Hispanic,High school,None,No,87,16,57,High school No
-125,Male,Others,Attended college,None,No,65,12,80,Attended college No
-126,Female,Asian,High school,None,No,78,11.5,95,High school No
-127,Male,Asian,High school,None,No,78,10,68,High school No
-128,Male,Hispanic,Attended college,Completed,Yes,69,13,77,Attended college Yes
-129,Male,Hispanic,Master Degree,None,Yes,78,15,82,Master Degree Yes
-130,Female,American,Bachelor Degree,None,Yes,56,18,51,Bachelor Degree Yes
-131,Male,Hispanic,Master Degree,None,Yes,72,11,84,Master Degree Yes
-132,Male,African American,High school,Completed,No,67,12,46,High school No
-133,Male,Others,Attended college,Completed,No,68,10,74,Attended college No
-134,Female,African American,Attended college,Completed,No,59,16,81,Attended college No
-135,Male,Hispanic,Bachelor Degree,Completed,Yes,58,11,79,Bachelor Degree Yes
-136,Male,African American,Bachelor Degree,None,Yes,68,15,55,Bachelor Degree Yes
-137,Male,Asian,High school,Completed,Yes,95,14,92,High school Yes
-138,Male,Others,High school,None,Yes,76,10,55,High school Yes
-139,Female,African American,Associate Degree,None,No,77,14,66,Associate Degree No
-140,Male,Hispanic,Attended college,Completed,No,73,15,61,Attended college No
-141,Female,Hispanic,High school,None,No,59,9,72,High school No
-142,Female,African American,Attended college,None,Yes,70,13,62,Attended college Yes
-143,Female,Others,Attended college,Completed,Yes,87,15,55,Attended college Yes
-144,Male,American,High school,None,Yes,65,16,53,High school Yes
-145,Male,Hispanic,Attended college,None,Yes,77,10,73,Attended college Yes
-146,Female,African American,Attended college,None,No,69,13,51,Attended college No
-147,Male,Asian,High school,None,No,78,15,84,High school No
-148,Male,African American,Associate Degree,None,No,69,18,68,Associate Degree No
-149,Female,Hispanic,Bachelor Degree,Completed,No,72,11,75,Bachelor Degree No
-150,Male,Asian,Associate Degree,Completed,Yes,67,12,97.5,Associate Degree Yes
-151,Male,American,High school,Completed,Yes,78,10,67,High school Yes
-153,Female,Asian,Associate Degree,Completed,Yes,78,11,70,Associate Degree Yes
-154,Male,Hispanic,Bachelor Degree,None,No,59,15,49,Bachelor Degree No
-155,Male,Hispanic,High school,None,No,74,14,67,High school No
-156,Female,African American,Attended college,Completed,No,67,10,89,Attended college No
-157,Female,Others,High school,Completed,Yes,68,14,74,High school Yes
-158,Male,Asian,Attended college,None,Yes,59,15,60,Attended college Yes
-159,Female,Asian,Associate Degree,Completed,Yes,58,9,86,Associate Degree Yes
-160,Male,Hispanic,Associate Degree,None,Yes,68,13,62,Associate Degree Yes
-161,Male,Asian,Associate Degree,Completed,No,95,15,78,Associate Degree No
-162,Female,Others,Attended college,Completed,No,76,16,88,Attended college No
-163,Male,Asian,Master Degree,None,No,77,14,53,Master Degree No
-164,Male,African American,High school,None,No,73,16,53,High school No
-165,Female,Others,Master Degree,None,No,59,12,92,Master Degree No
-166,Female,African American,Bachelor Degree,Completed,Yes,70,10.5,97,Bachelor Degree Yes
-167,Male,African American,High school,Completed,Yes,87,10,51,High school Yes
-168,Female,Asian,Master Degree,Completed,Yes,65,13,76,Master Degree Yes
-169,Female,Asian,High school,Completed,Yes,78,15,83,High school Yes
-170,Female,African American,Attended college,Completed,No,69,18,75,Attended college No
-171,Male,American,High school,Completed,No,78,11,73,High school No
-172,Male,Others,High school,None,No,63,12,88,High school No
-173,Female,Hispanic,Attended college,None,Yes,73,9,86,Attended college Yes
-174,Female,African American,Associate Degree,None,Yes,59,16,67,Associate Degree Yes
-175,Female,African American,Bachelor Degree,Completed,Yes,70,11,51,Bachelor Degree Yes
-176,Female,African American,Master Degree,Completed,Yes,87,15,91,Master Degree Yes
-177,Female,Asian,High school,Completed,No,65,14,54,High school No
-178,Female,African American,Associate Degree,Completed,No,78,11,77,Associate Degree No
-179,Female,Asian,Master Degree,Completed,No,78,14,70,Master Degree No
-180,Female,Hispanic,High school,Completed,No,69,15,98,High school No
-181,Male,African American,Master Degree,Completed,Yes,78,9,68,Master Degree Yes
-182,Female,African American,Attended college,None,Yes,57,13,64,Attended college Yes
-183,Female,Others,High school,None,Yes,72,15,50,High school Yes
-184,Female,Hispanic,Associate Degree,None,Yes,67,16,69,Associate Degree Yes
-185,Male,African American,High school,Completed,No,68,18,52,High school No
-186,Male,African American,Associate Degree,Completed,No,59,11,67,Associate Degree No
-187,Male,Others,High school,None,No,58,12,76,High school No
-188,Male,Hispanic,High school,Completed,Yes,68,10,66,High school Yes
-189,Male,Asian,High school,None,Yes,95,16,52,High school Yes
-190,Female,African American,Bachelor Degree,None,Yes,76,11,88,Bachelor Degree Yes
-191,Female,Others,Associate Degree,None,Yes,77,15,65,Associate Degree Yes
-192,Male,Hispanic,Attended college,Completed,No,73,14,83,Attended college No
-193,Female,Asian,High school,None,No,55,11,64,High school No
-194,Male,Hispanic,Attended college,Completed,No,70,14,62,Attended college No
-195,Female,African American,Master Degree,Completed,No,87,15,84,Master Degree No
-196,Male,Hispanic,Associate Degree,None,No,65,9,55,Associate Degree No
-198,Male,Others,High school,None,Yes,73,15,56,High school Yes
-199,Female,Asian,Attended college,None,Yes,59,16,53,Attended college Yes
-200,Female,Asian,Bachelor Degree,None,Yes,70,14,79,Bachelor Degree Yes
-201,Female,African American,Associate Degree,Completed,No,87,16,84,Associate Degree No
-202,Female,Hispanic,Attended college,None,No,65,12,81,Attended college No
-203,Male,African American,Associate Degree,None,No,76,14.5,77,Associate Degree No
-204,Female,Asian,Associate Degree,None,Yes,78,10,69,Associate Degree Yes
-205,Male,African American,Attended college,None,Yes,69,12,41,Attended college Yes
-206,Male,Hispanic,High school,Completed,Yes,77,15,71,High school Yes
-207,Male,Others,Bachelor Degree,None,Yes,55,16,62,Bachelor Degree Yes
-208,Male,Others,High school,Completed,No,72,11,80,High school No
-209,Female,Asian,Attended college,None,No,67,12,81,Attended college No
-210,Female,Asian,Attended college,None,No,68,13,61,Attended college No
-211,Male,Hispanic,High school,Completed,No,59,16,79,High school No
-212,Male,African American,Attended college,None,Yes,58,11,51,Attended college Yes
-213,Female,African American,High school,None,Yes,68,15,62,High school Yes
-214,Male,African American,Associate Degree,Completed,Yes,95,14,51,Associate Degree Yes
-215,Male,Others,High school,Completed,Yes,76,16,91,High school Yes
-216,Male,Asian,High school,Completed,No,77,14,83,High school No
-217,Female,Others,Associate Degree,Completed,No,73,15,86,Associate Degree No
-218,Female,African American,High school,None,No,59,9,51,High school No
-219,Male,Asian,High school,Completed,Yes,70,13,77,High school Yes
-220,Male,Asian,High school,Completed,Yes,87,15,56,High school Yes
-221,Female,Hispanic,High school,Completed,Yes,65,16,68,High school Yes
-222,Male,Asian,Associate Degree,None,Yes,78,16,85,Associate Degree Yes
-223,Female,African American,High school,None,No,69,11,65,High school No
-224,Male,Hispanic,High school,None,No,78,12,80,High school No
-225,Female,Asian,Associate Degree,Completed,No,74,10,66,Associate Degree No
-226,Female,Others,Master Degree,None,No,59,16,56,Master Degree No
-227,Female,African American,Attended college,None,No,73,11,72,Attended college No
-228,Male,Hispanic,High school,None,Yes,59,15,50,High school Yes
-229,Male,American,High school,None,Yes,70,14,72,High school Yes
-230,Female,African American,Attended college,Completed,Yes,87,10,95,Attended college Yes
-231,Male,Hispanic,Attended college,None,Yes,65,14,64,Attended college Yes
-232,Male,African American,Associate Degree,None,No,78,15,50,Associate Degree No
-233,Female,Asian,Bachelor Degree,None,No,78,18,86,Bachelor Degree No
-234,Male,Others,High school,None,No,69,13,87,High school No
-235,Male,African American,Bachelor Degree,Completed,Yes,78,15,82,Bachelor Degree Yes
-236,Male,Hispanic,Associate Degree,None,Yes,61,16,75,Associate Degree Yes
-237,Male,Hispanic,Bachelor Degree,None,Yes,72,14,66,Bachelor Degree Yes
-238,Female,Hispanic,High school,Completed,Yes,67,16,60,High school Yes
-239,Male,Asian,Attended college,None,No,68,12,52,Attended college No
-240,Male,African American,Associate Degree,None,No,59,10.5,80,Associate Degree No
-241,Male,Hispanic,High school,Completed,No,58,16,68,High school No
-242,Female,Others,Bachelor Degree,None,No,68,14,83,Bachelor Degree No
-243,Female,Hispanic,High school,None,Yes,78,15,52,High school Yes
-244,Male,Others,Attended college,None,Yes,59,14,51,Attended college Yes
-245,Male,Hispanic,High school,None,Yes,73,11,74,High school Yes
-246,Male,African American,Associate Degree,None,Yes,59,12,76,Associate Degree Yes
-247,Male,Others,Associate Degree,None,No,70,9,76,Associate Degree No
-248,Female,Asian,High school,Completed,No,87,16,70,High school No
-249,Female,Asian,High school,None,No,65,11,64,High school No
-250,Male,African American,High school,None,Yes,78,15,60,High school Yes
-251,Male,American,High school,Completed,Yes,78,14,49,High school Yes
-252,Female,Hispanic,Attended college,None,Yes,69,11,83,Attended college Yes
-253,Female,Asian,High school,Completed,Yes,78,14,70,High school Yes
-254,Male,Hispanic,Master Degree,None,No,64,15,80,Master Degree No
-255,Male,Hispanic,High school,None,No,70,9,52,High school No
-256,Female,Others,Attended college,None,No,67,13,73,Attended college No
-257,Female,African American,Associate Degree,None,Yes,68,15,73,Associate Degree Yes
-258,Male,African American,Associate Degree,Completed,Yes,59,16,77,Associate Degree Yes
-259,Female,Asian,Attended college,None,Yes,58,14,75,Attended college Yes
-260,Female,African American,Master Degree,Completed,Yes,68,15,81,Master Degree Yes
-261,Female,African American,High school,Completed,No,95,18,79,High school No
-262,Male,African American,Attended college,Completed,No,76,13,79,Attended college No
-263,Female,African American,High school,None,No,77,15,50,High school No
-264,Female,Others,High school,None,No,73,16,93,High school No
-265,Male,Hispanic,High school,None,No,59,14,73,High school No
-266,Male,Hispanic,High school,None,Yes,70,16,42,High school Yes
-267,Female,African American,Bachelor Degree,None,Yes,65,12,75,Bachelor Degree Yes
-268,Female,Hispanic,High school,None,Yes,78,11.5,72,High school Yes
-269,Female,Hispanic,Associate Degree,Completed,Yes,59,16,92,Associate Degree Yes
-270,Female,Others,Attended college,None,Yes,73,13,76,Attended college Yes
-271,Male,African American,Bachelor Degree,None,No,59,15,63,Bachelor Degree No
-272,Male,African American,Attended college,None,No,70,18,50,Attended college No
-273,Female,Hispanic,Associate Degree,None,No,87,11,53,Associate Degree No
-274,Female,Hispanic,Attended college,None,No,65,12,70,Attended college No
-275,Male,Asian,Attended college,Completed,Yes,78,12,85,Attended college Yes
-276,Male,African American,Bachelor Degree,None,Yes,78,16,78,Bachelor Degree Yes
-277,Female,African American,High school,Completed,Yes,69,11,92,High school Yes
-278,Female,Others,High school,Completed,No,78,15,63,High school No
-279,Female,African American,High school,None,No,63,14,86,High school No
-280,Male,Asian,Bachelor Degree,None,No,72,9.5,56,Bachelor Degree No
-281,Male,Hispanic,High school,None,No,67,14,52,High school No
-282,Male,Hispanic,High school,None,No,68,15,48,High school No
-283,Female,Hispanic,Bachelor Degree,None,Yes,59,9,79,Bachelor Degree Yes
-284,Female,Hispanic,Attended college,Completed,Yes,58,13,78,Attended college Yes
-285,Female,Asian,High school,None,Yes,68,15,52,High school Yes
-286,Male,Asian,Associate Degree,Completed,Yes,95,16,82,Associate Degree Yes
-287,Male,Others,Associate Degree,Completed,No,76,14,82,Associate Degree No
-288,Female,Asian,High school,None,No,77,15,89,High school No
-289,Male,Asian,Bachelor Degree,None,No,73,18,75,Bachelor Degree No
-290,Male,Others,High school,Completed,Yes,59,13,76,High school Yes
-291,Male,African American,Associate Degree,None,Yes,70,15,70,Associate Degree Yes
-292,Male,Hispanic,High school,None,Yes,87,16,73,High school Yes
-293,Male,African American,High school,Completed,No,65,14,60,High school No
-294,Female,Others,Bachelor Degree,None,No,78,16,73,Bachelor Degree No
-295,Male,Hispanic,High school,Completed,No,73,12,77,High school No
-296,Male,Asian,Associate Degree,None,No,59,15.5,62,Associate Degree No
-297,Male,American,High school,Completed,No,70,14,50,High school No
-298,Male,Others,Associate Degree,Completed,Yes,87,15,74,Associate Degree Yes
+1,Female,Asian,Attended college,None,No,85,16,74,Attended college None
+2,Female,African American,Attended college,Completed,Yes,89,12,90,Attended college Completed
+3,Female,Asian,Master Degree,None,Yes,94,17.5,95,Master Degree None
+4,Male,American,Associate Degree,None,No,65,10,67,Associate Degree None
+5,Male,African American,Attended college,None,No,80,13,78,Attended college None
+7,Female,Asian,Attended college,Completed,Yes,95,18,95,Attended college Completed
+8,Male,Asian,Attended college,None,Yes,76,11,73,Attended college None
+9,Male,Hispanic,High school,Completed,Yes,77,12,64,High school Completed
+10,Female,Asian,High school,None,Yes,73,10,60,High school None
+11,Male,African American,Associate Degree,None,No,59,16,64,Associate Degree None
+12,Male,Hispanic,Associate Degree,None,No,70,11,62,Associate Degree None
+13,Female,Asian,High school,None,No,87,15,81,High school None
+14,Male,American,Attended college,Completed,Yes,65,14,72,Attended college Completed
+15,Female,American,Master Degree,None,Yes,78,10,59,Master Degree None
+16,Female,African American,High school,None,Yes,69,14,75,High school None
+17,Male,African American,High school,None,Yes,78,15,89,High school None
+18,Female,Asian,High school,None,No,59,9,72,High school None
+19,Male,African American,Master Degree,Completed,No,72,13,62,Master Degree Completed
+20,Female,African American,Associate Degree,None,No,67,15,68,Associate Degree None
+21,Male,Hispanic,High school,None,Yes,68,16,69,High school None
+22,Female,Asian,Attended college,Completed,Yes,59,12,75,Attended college Completed
+23,Male,Hispanic,Attended college,None,Yes,58,11,54,Attended college None
+24,Female,African American,High school,None,Yes,68,13,73,High school None
+25,Male,Hispanic,Bachelor Degree,Completed,No,69,16,71,Bachelor Degree Completed
+26,Male,American,Master Degree,None,No,69,12,74,Master Degree None
+27,Male,Asian,Attended college,None,No,81,14.5,54,Attended college None
+28,Female,African American,Bachelor Degree,None,Yes,95,11,69,Bachelor Degree None
+29,Male,African American,High school,None,Yes,76,14,70,High school None
+30,Female,Hispanic,Master Degree,None,Yes,77,12,70,Master Degree None
+31,Female,Hispanic,Attended college,None,Yes,73,18,74,Attended college None
+32,Female,Asian,Attended college,None,No,59,11,65,Attended college None
+33,Female,Others,Master Degree,None,No,70,12,72,Master Degree None
+34,Male,Hispanic,Attended college,None,No,87,10,53,Attended college None
+35,Male,Others,Attended college,None,Yes,65,16,87,Attended college None
+36,Male,Others,Associate Degree,Completed,Yes,78,11,80,Associate Degree Completed
+37,Female,Hispanic,Associate Degree,None,Yes,69,15,81,Associate Degree None
+38,Female,Hispanic,High school,None,Yes,84,14,64,High school None
+39,Female,Hispanic,Associate Degree,Completed,No,59,10,90,Associate Degree Completed
+40,Male,Asian,Associate Degree,None,No,72,14,56,Associate Degree None
+41,Male,African American,Associate Degree,None,No,67,15,61,Associate Degree None
+42,Female,African American,Associate Degree,None,Yes,68,9,73,Associate Degree None
+43,Female,Asian,Associate Degree,None,Yes,59,16,58,Associate Degree None
+44,Male,Asian,Attended college,Completed,Yes,58,12,65,Attended college Completed
+45,Female,Others,Associate Degree,None,Yes,68,11.5,56,Associate Degree None
+46,Male,Asian,Associate Degree,None,No,69,10,54,Associate Degree None
+47,Female,American,Associate Degree,Completed,No,69,12.5,65,Associate Degree Completed
+48,Female,African American,High school,None,No,81,12,71,High school None
+49,Female,Hispanic,Associate Degree,Completed,Yes,95,17,74,Associate Degree Completed
+50,Male,African American,High school,Completed,Yes,76,11,84,High school Completed
+51,Male,Others,Attended college,None,Yes,77,12,55,Attended college None
+52,Male,Others,Associate Degree,Completed,Yes,73,10,69,Associate Degree Completed
+53,Male,African American,Attended college,None,No,59,16,58,Attended college None
+54,Male,Hispanic,High school,None,No,70,11,78,High school None
+55,Female,African American,High school,Completed,No,87,15,84,High school Completed
+56,Female,African American,High school,None,Yes,65,14,53,High school None
+57,Female,Others,Associate Degree,Completed,No,78,10,85,Associate Degree Completed
+58,Male,Hispanic,Associate Degree,None,No,69,14,55,Associate Degree None
+59,Male,Hispanic,Attended college,Completed,Yes,78,15,59,Attended college Completed
+60,Female,African American,High school,None,Yes,59,9,71,High school None
+61,Male,Others,Bachelor Degree,Completed,Yes,72,13,74,Bachelor Degree Completed
+62,Male,American,High school,None,Yes,67,15,53,High school None
+63,Male,American,Associate Degree,None,No,68,16,61,Associate Degree None
+64,Female,African American,Associate Degree,None,No,59,12,80,Associate Degree None
+65,Female,Hispanic,High school,None,No,58,11,58,High school None
+66,Male,Asian,High school,None,Yes,68,13,64,High school None
+67,Male,Hispanic,High school,None,Yes,69,8,55,High school None
+68,Female,African American,Attended college,None,Yes,95,16,72,Attended college None
+69,Male,Asian,Associate Degree,None,Yes,76,12,58,Associate Degree None
+70,Female,African American,Associate Degree,None,No,77,12,64,Associate Degree None
+71,Female,Hispanic,Attended college,Completed,No,73,10,74,Attended college Completed
+72,Male,Hispanic,Attended college,Completed,No,59,15,55,Attended college Completed
+74,Male,African American,High school,None,Yes,87,18,57,High school None
+75,Male,African American,High school,None,Yes,65,11,54,High school None
+76,Male,Asian,Associate Degree,None,Yes,78,12,81,Associate Degree None
+77,Male,Others,High school,None,Yes,69,10,56,High school None
+78,Male,American,Bachelor Degree,Completed,No,78,16,78,Bachelor Degree Completed
+79,Female,Hispanic,High school,Completed,No,59,11,74,High school Completed
+80,Female,Others,Master Degree,None,No,72,15,68,Master Degree None
+81,Female,Asian,Associate Degree,None,Yes,67,14,59,Associate Degree None
+82,Male,Asian,High school,None,Yes,68,10,56,High school None
+83,Male,American,Attended college,Completed,Yes,59,14,67,Attended college Completed
+84,Male,Others,Associate Degree,None,Yes,58,15,64,Associate Degree None
+85,Male,Hispanic,High school,None,No,68,9,69,High school None
+86,Female,African American,Attended college,None,No,95,13,80,Attended college None
+87,Female,African American,Attended college,None,No,76,15,83,Attended college None
+88,Female,Hispanic,Associate Degree,None,No,77,16,71,Associate Degree None
+89,Female,American,Attended college,None,Yes,73,12,70,Attended college None
+90,Female,Hispanic,High school,None,Yes,59,11,86,High school None
+91,Female,African American,Bachelor Degree,None,Yes,70,13,72,Bachelor Degree None
+92,Male,African American,High school,None,Yes,87,16,74,High school None
+93,Male,African American,High school,None,No,65,12,79,High school None
+94,Male,African American,Associate Degree,Completed,No,78,14.5,75,Associate Degree Completed
+95,Female,Asian,Attended college,None,No,69,17,86,Attended college None
+96,Male,African American,Associate Degree,Completed,Yes,78,15,81,Associate Degree Completed
+97,Male,Asian,High school,Completed,Yes,59,16,66,High school Completed
+98,Female,Others,Attended college,Completed,Yes,73,12,72,Attended college Completed
+99,Female,Hispanic,Attended college,None,Yes,67,11,67,Attended college None
+100,Female,Hispanic,Bachelor Degree,None,No,68,13,67,Bachelor Degree None
+101,Male,Asian,Attended college,None,No,59,8,67,Attended college None
+102,Male,Hispanic,Bachelor Degree,Completed,No,58,16,74,Bachelor Degree Completed
+103,Female,Hispanic,Associate Degree,None,Yes,68,12,91,Associate Degree None
+104,Male,Asian,High school,Completed,No,69,12.5,54,High school Completed
+105,Male,African American,Attended college,Completed,No,69,10,86,Attended college Completed
+106,Female,African American,Attended college,None,Yes,81,13,67,Attended college None
+107,Female,Hispanic,Master Degree,None,Yes,80,15,97,Master Degree None
+108,Male,Others,Associate Degree,Completed,Yes,78,16,63,Associate Degree Completed
+109,Female,Asian,Associate Degree,None,Yes,69,11,76,Associate Degree None
+110,Female,Asian,High school,None,No,78,12,64,High school None
+111,Female,Hispanic,Associate Degree,Completed,No,59,11,89,Associate Degree Completed
+112,Male,African American,High school,None,No,74,16,55,High school None
+113,Male,American,Associate Degree,None,Yes,67,11,53,Associate Degree None
+114,Female,Hispanic,Attended college,None,Yes,68,15,58,Attended college None
+115,Female,Others,Bachelor Degree,Completed,Yes,59,14,98,Bachelor Degree Completed
+116,Male,African American,High school,None,Yes,58,10,77,High school None
+117,Female,Asian,Bachelor Degree,None,No,68,14,85,Bachelor Degree None
+118,Female,Hispanic,Bachelor Degree,None,No,95,15,82,Bachelor Degree None
+119,Female,Hispanic,High school,None,No,76,9,63,High school None
+120,Female,African American,Attended college,None,Yes,77,13,69,Attended college None
+121,Female,African American,Bachelor Degree,Completed,Yes,73,15,92,Bachelor Degree Completed
+122,Male,Asian,Associate Degree,Completed,Yes,59,16,89,Associate Degree Completed
+123,Female,African American,Attended college,Completed,Yes,70,14,93,Attended college Completed
+124,Male,Hispanic,High school,None,No,87,16,57,High school None
+125,Male,Others,Attended college,None,No,65,12,80,Attended college None
+126,Female,Asian,High school,None,No,78,11.5,95,High school None
+127,Male,Asian,High school,None,No,78,10,68,High school None
+128,Male,Hispanic,Attended college,Completed,Yes,69,13,77,Attended college Completed
+129,Male,Hispanic,Master Degree,None,Yes,78,15,82,Master Degree None
+130,Female,American,Bachelor Degree,None,Yes,56,18,51,Bachelor Degree None
+131,Male,Hispanic,Master Degree,None,Yes,72,11,84,Master Degree None
+132,Male,African American,High school,Completed,No,67,12,46,High school Completed
+133,Male,Others,Attended college,Completed,No,68,10,74,Attended college Completed
+134,Female,African American,Attended college,Completed,No,59,16,81,Attended college Completed
+135,Male,Hispanic,Bachelor Degree,Completed,Yes,58,11,79,Bachelor Degree Completed
+136,Male,African American,Bachelor Degree,None,Yes,68,15,55,Bachelor Degree None
+137,Male,Asian,High school,Completed,Yes,95,14,92,High school Completed
+138,Male,Others,High school,None,Yes,76,10,55,High school None
+139,Female,African American,Associate Degree,None,No,77,14,66,Associate Degree None
+140,Male,Hispanic,Attended college,Completed,No,73,15,61,Attended college Completed
+141,Female,Hispanic,High school,None,No,59,9,72,High school None
+142,Female,African American,Attended college,None,Yes,70,13,62,Attended college None
+143,Female,Others,Attended college,Completed,Yes,87,15,55,Attended college Completed
+144,Male,American,High school,None,Yes,65,16,53,High school None
+145,Male,Hispanic,Attended college,None,Yes,77,10,73,Attended college None
+146,Female,African American,Attended college,None,No,69,13,51,Attended college None
+147,Male,Asian,High school,None,No,78,15,84,High school None
+148,Male,African American,Associate Degree,None,No,69,18,68,Associate Degree None
+149,Female,Hispanic,Bachelor Degree,Completed,No,72,11,75,Bachelor Degree Completed
+150,Male,Asian,Associate Degree,Completed,Yes,67,12,97.5,Associate Degree Completed
+151,Male,American,High school,Completed,Yes,78,10,67,High school Completed
+153,Female,Asian,Associate Degree,Completed,Yes,78,11,70,Associate Degree Completed
+154,Male,Hispanic,Bachelor Degree,None,No,59,15,49,Bachelor Degree None
+155,Male,Hispanic,High school,None,No,74,14,67,High school None
+156,Female,African American,Attended college,Completed,No,67,10,89,Attended college Completed
+157,Female,Others,High school,Completed,Yes,68,14,74,High school Completed
+158,Male,Asian,Attended college,None,Yes,59,15,60,Attended college None
+159,Female,Asian,Associate Degree,Completed,Yes,58,9,86,Associate Degree Completed
+160,Male,Hispanic,Associate Degree,None,Yes,68,13,62,Associate Degree None
+161,Male,Asian,Associate Degree,Completed,No,95,15,78,Associate Degree Completed
+162,Female,Others,Attended college,Completed,No,76,16,88,Attended college Completed
+163,Male,Asian,Master Degree,None,No,77,14,53,Master Degree None
+164,Male,African American,High school,None,No,73,16,53,High school None
+165,Female,Others,Master Degree,None,No,59,12,92,Master Degree None
+166,Female,African American,Bachelor Degree,Completed,Yes,70,10.5,97,Bachelor Degree Completed
+167,Male,African American,High school,Completed,Yes,87,10,51,High school Completed
+168,Female,Asian,Master Degree,Completed,Yes,65,13,76,Master Degree Completed
+169,Female,Asian,High school,Completed,Yes,78,15,83,High school Completed
+170,Female,African American,Attended college,Completed,No,69,18,75,Attended college Completed
+171,Male,American,High school,Completed,No,78,11,73,High school Completed
+172,Male,Others,High school,None,No,63,12,88,High school None
+173,Female,Hispanic,Attended college,None,Yes,73,9,86,Attended college None
+174,Female,African American,Associate Degree,None,Yes,59,16,67,Associate Degree None
+175,Female,African American,Bachelor Degree,Completed,Yes,70,11,51,Bachelor Degree Completed
+176,Female,African American,Master Degree,Completed,Yes,87,15,91,Master Degree Completed
+177,Female,Asian,High school,Completed,No,65,14,54,High school Completed
+178,Female,African American,Associate Degree,Completed,No,78,11,77,Associate Degree Completed
+179,Female,Asian,Master Degree,Completed,No,78,14,70,Master Degree Completed
+180,Female,Hispanic,High school,Completed,No,69,15,98,High school Completed
+181,Male,African American,Master Degree,Completed,Yes,78,9,68,Master Degree Completed
+182,Female,African American,Attended college,None,Yes,57,13,64,Attended college None
+183,Female,Others,High school,None,Yes,72,15,50,High school None
+184,Female,Hispanic,Associate Degree,None,Yes,67,16,69,Associate Degree None
+185,Male,African American,High school,Completed,No,68,18,52,High school Completed
+186,Male,African American,Associate Degree,Completed,No,59,11,67,Associate Degree Completed
+187,Male,Others,High school,None,No,58,12,76,High school None
+188,Male,Hispanic,High school,Completed,Yes,68,10,66,High school Completed
+189,Male,Asian,High school,None,Yes,95,16,52,High school None
+190,Female,African American,Bachelor Degree,None,Yes,76,11,88,Bachelor Degree None
+191,Female,Others,Associate Degree,None,Yes,77,15,65,Associate Degree None
+192,Male,Hispanic,Attended college,Completed,No,73,14,83,Attended college Completed
+193,Female,Asian,High school,None,No,55,11,64,High school None
+194,Male,Hispanic,Attended college,Completed,No,70,14,62,Attended college Completed
+195,Female,African American,Master Degree,Completed,No,87,15,84,Master Degree Completed
+196,Male,Hispanic,Associate Degree,None,No,65,9,55,Associate Degree None
+198,Male,Others,High school,None,Yes,73,15,56,High school None
+199,Female,Asian,Attended college,None,Yes,59,16,53,Attended college None
+200,Female,Asian,Bachelor Degree,None,Yes,70,14,79,Bachelor Degree None
+201,Female,African American,Associate Degree,Completed,No,87,16,84,Associate Degree Completed
+202,Female,Hispanic,Attended college,None,No,65,12,81,Attended college None
+203,Male,African American,Associate Degree,None,No,76,14.5,77,Associate Degree None
+204,Female,Asian,Associate Degree,None,Yes,78,10,69,Associate Degree None
+205,Male,African American,Attended college,None,Yes,69,12,41,Attended college None
+206,Male,Hispanic,High school,Completed,Yes,77,15,71,High school Completed
+207,Male,Others,Bachelor Degree,None,Yes,55,16,62,Bachelor Degree None
+208,Male,Others,High school,Completed,No,72,11,80,High school Completed
+209,Female,Asian,Attended college,None,No,67,12,81,Attended college None
+210,Female,Asian,Attended college,None,No,68,13,61,Attended college None
+211,Male,Hispanic,High school,Completed,No,59,16,79,High school Completed
+212,Male,African American,Attended college,None,Yes,58,11,51,Attended college None
+213,Female,African American,High school,None,Yes,68,15,62,High school None
+214,Male,African American,Associate Degree,Completed,Yes,95,14,51,Associate Degree Completed
+215,Male,Others,High school,Completed,Yes,76,16,91,High school Completed
+216,Male,Asian,High school,Completed,No,77,14,83,High school Completed
+217,Female,Others,Associate Degree,Completed,No,73,15,86,Associate Degree Completed
+218,Female,African American,High school,None,No,59,9,51,High school None
+219,Male,Asian,High school,Completed,Yes,70,13,77,High school Completed
+220,Male,Asian,High school,Completed,Yes,87,15,56,High school Completed
+221,Female,Hispanic,High school,Completed,Yes,65,16,68,High school Completed
+222,Male,Asian,Associate Degree,None,Yes,78,16,85,Associate Degree None
+223,Female,African American,High school,None,No,69,11,65,High school None
+224,Male,Hispanic,High school,None,No,78,12,80,High school None
+225,Female,Asian,Associate Degree,Completed,No,74,10,66,Associate Degree Completed
+226,Female,Others,Master Degree,None,No,59,16,56,Master Degree None
+227,Female,African American,Attended college,None,No,73,11,72,Attended college None
+228,Male,Hispanic,High school,None,Yes,59,15,50,High school None
+229,Male,American,High school,None,Yes,70,14,72,High school None
+230,Female,African American,Attended college,Completed,Yes,87,10,95,Attended college Completed
+231,Male,Hispanic,Attended college,None,Yes,65,14,64,Attended college None
+232,Male,African American,Associate Degree,None,No,78,15,50,Associate Degree None
+233,Female,Asian,Bachelor Degree,None,No,78,18,86,Bachelor Degree None
+234,Male,Others,High school,None,No,69,13,87,High school None
+235,Male,African American,Bachelor Degree,Completed,Yes,78,15,82,Bachelor Degree Completed
+236,Male,Hispanic,Associate Degree,None,Yes,61,16,75,Associate Degree None
+237,Male,Hispanic,Bachelor Degree,None,Yes,72,14,66,Bachelor Degree None
+238,Female,Hispanic,High school,Completed,Yes,67,16,60,High school Completed
+239,Male,Asian,Attended college,None,No,68,12,52,Attended college None
+240,Male,African American,Associate Degree,None,No,59,10.5,80,Associate Degree None
+241,Male,Hispanic,High school,Completed,No,58,16,68,High school Completed
+242,Female,Others,Bachelor Degree,None,No,68,14,83,Bachelor Degree None
+243,Female,Hispanic,High school,None,Yes,78,15,52,High school None
+244,Male,Others,Attended college,None,Yes,59,14,51,Attended college None
+245,Male,Hispanic,High school,None,Yes,73,11,74,High school None
+246,Male,African American,Associate Degree,None,Yes,59,12,76,Associate Degree None
+247,Male,Others,Associate Degree,None,No,70,9,76,Associate Degree None
+248,Female,Asian,High school,Completed,No,87,16,70,High school Completed
+249,Female,Asian,High school,None,No,65,11,64,High school None
+250,Male,African American,High school,None,Yes,78,15,60,High school None
+251,Male,American,High school,Completed,Yes,78,14,49,High school Completed
+252,Female,Hispanic,Attended college,None,Yes,69,11,83,Attended college None
+253,Female,Asian,High school,Completed,Yes,78,14,70,High school Completed
+254,Male,Hispanic,Master Degree,None,No,64,15,80,Master Degree None
+255,Male,Hispanic,High school,None,No,70,9,52,High school None
+256,Female,Others,Attended college,None,No,67,13,73,Attended college None
+257,Female,African American,Associate Degree,None,Yes,68,15,73,Associate Degree None
+258,Male,African American,Associate Degree,Completed,Yes,59,16,77,Associate Degree Completed
+259,Female,Asian,Attended college,None,Yes,58,14,75,Attended college None
+260,Female,African American,Master Degree,Completed,Yes,68,15,81,Master Degree Completed
+261,Female,African American,High school,Completed,No,95,18,79,High school Completed
+262,Male,African American,Attended college,Completed,No,76,13,79,Attended college Completed
+263,Female,African American,High school,None,No,77,15,50,High school None
+264,Female,Others,High school,None,No,73,16,93,High school None
+265,Male,Hispanic,High school,None,No,59,14,73,High school None
+266,Male,Hispanic,High school,None,Yes,70,16,42,High school None
+267,Female,African American,Bachelor Degree,None,Yes,65,12,75,Bachelor Degree None
+268,Female,Hispanic,High school,None,Yes,78,11.5,72,High school None
+269,Female,Hispanic,Associate Degree,Completed,Yes,59,16,92,Associate Degree Completed
+270,Female,Others,Attended college,None,Yes,73,13,76,Attended college None
+271,Male,African American,Bachelor Degree,None,No,59,15,63,Bachelor Degree None
+272,Male,African American,Attended college,None,No,70,18,50,Attended college None
+273,Female,Hispanic,Associate Degree,None,No,87,11,53,Associate Degree None
+274,Female,Hispanic,Attended college,None,No,65,12,70,Attended college None
+275,Male,Asian,Attended college,Completed,Yes,78,12,85,Attended college Completed
+276,Male,African American,Bachelor Degree,None,Yes,78,16,78,Bachelor Degree None
+277,Female,African American,High school,Completed,Yes,69,11,92,High school Completed
+278,Female,Others,High school,Completed,No,78,15,63,High school Completed
+279,Female,African American,High school,None,No,63,14,86,High school None
+280,Male,Asian,Bachelor Degree,None,No,72,9.5,56,Bachelor Degree None
+281,Male,Hispanic,High school,None,No,67,14,52,High school None
+282,Male,Hispanic,High school,None,No,68,15,48,High school None
+283,Female,Hispanic,Bachelor Degree,None,Yes,59,9,79,Bachelor Degree None
+284,Female,Hispanic,Attended college,Completed,Yes,58,13,78,Attended college Completed
+285,Female,Asian,High school,None,Yes,68,15,52,High school None
+286,Male,Asian,Associate Degree,Completed,Yes,95,16,82,Associate Degree Completed
+287,Male,Others,Associate Degree,Completed,No,76,14,82,Associate Degree Completed
+288,Female,Asian,High school,None,No,77,15,89,High school None
+289,Male,Asian,Bachelor Degree,None,No,73,18,75,Bachelor Degree None
+290,Male,Others,High school,Completed,Yes,59,13,76,High school Completed
+291,Male,African American,Associate Degree,None,Yes,70,15,70,Associate Degree None
+292,Male,Hispanic,High school,None,Yes,87,16,73,High school None
+293,Male,African American,High school,Completed,No,65,14,60,High school Completed
+294,Female,Others,Bachelor Degree,None,No,78,16,73,Bachelor Degree None
+295,Male,Hispanic,High school,Completed,No,73,12,77,High school Completed
+296,Male,Asian,Associate Degree,None,No,59,15.5,62,Associate Degree None
+297,Male,American,High school,Completed,No,70,14,50,High school Completed
+298,Male,Others,Associate Degree,Completed,Yes,87,15,74,Associate Degree Completed
