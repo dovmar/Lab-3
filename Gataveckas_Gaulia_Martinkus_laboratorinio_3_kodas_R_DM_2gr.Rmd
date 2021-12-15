@@ -2,7 +2,7 @@
 title: "Kovariacinė Analizė"
 author: "Vainius Gataveckas, Matas Gaulia, Dovydas Martinkus"
 output:
-  html_document: default
+  word_document: default
 ---
 
 
