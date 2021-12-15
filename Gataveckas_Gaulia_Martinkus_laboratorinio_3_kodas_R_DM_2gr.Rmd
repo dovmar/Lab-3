@@ -7,7 +7,7 @@ output:
 
 
 ```{r, include=FALSE}
-knitr::opts_chunk$set(warning=FALSE,message=FALSE)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 ```
 
 ```{r}
@@ -16,129 +16,102 @@ library(car)
 library(readxl)
 library(janitor)
 
-x<-read_csv("possum.csv") %>% clean_names()
+x <- readxl::read_xlsx("HighSchool.xlsx", sheet = 1) %>% clean_names()
 ```
 
 
 ```{r}
 x <- x %>%
   # sudaromas jungtinis faktorius
-  mutate(combined = factor(paste(pop,sex))) %>%
+  mutate(combined = factor(paste(parental_education, test_prep_course))) %>%
   drop_na()
 
 
-write_csv(x,"high_school_modified.csv")
+write_csv(x, "high_school_modified.csv")
+
 
 # Tiriamieji grafikai
 
 # Faktorių efektai neatsižvelgiant į kovariantes
-ggplot(x, aes(sex,taill, color = pop,group=pop)) + stat_summary(fun = "mean", geom = "line", size = 1) + theme_minimal(base_size = 16) 
-
+ggplot(x, aes(parental_education, result, color = test_prep_course, group = test_prep_course)) +
+  stat_summary(fun = "mean", geom = "line", size = 1) +
+  theme_minimal(base_size = 16) +
+  guides(x = guide_axis(n.dodge = 2))
 
 
 # Hipotezės apie koeficientų lygybę visiems faktorių lygmenims
-ggplot(x,aes(age,taill,color=combined)) + geom_point() +
-  geom_smooth(method="lm",se=FALSE) + theme_minimal()
+ggplot(x, aes(attendance, result, color = parental_education)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = FALSE) +
+  facet_wrap(vars(test_prep_course)) +
+  theme_minimal()
 
 
+ggplot(x, aes(daily_study_hours, result, color = parental_education)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = FALSE) +
+  facet_wrap(vars(test_prep_course)) +
+  theme_minimal()
 
-# Kovariančių pasiskirstymas pagal faktorių lygmenis 
-ggplot(x,aes(x=sex,y=age,color=pop)) +
-  geom_boxplot() + theme_minimal() + scale_color_brewer(palette="Set2")
+
+# Kovariančių pasiskirstymas pagal faktorių lygmenis
+ggplot(x, aes(x = parental_education, y = result, color = special_coaching)) +
+  geom_boxplot() +
+  theme_minimal() +
+  scale_color_brewer(palette = "Set2")
 
 
-
+ggplot(x, aes(x = parental_education, y = attendance, color = special_coaching)) +
+  geom_boxplot() +
+  theme_minimal() +
+  scale_color_brewer(palette = "Set2")
 ```
 
 
 ```{r}
 library(rstatix)
 
-anova_test(taill~age*combined,data=x,type=3, detailed=TRUE) 
-# hipoteze apie koeficientų lygybė lygybę neatmetama
+# Hipotezė apie koeficientų lygybę neatmetama
+anova_test(result ~ attendance * combined + daily_study_hours * combined, data = x, type = 3, detailed = TRUE)
 
 
-anova_test(taill~sex*pop+age,data=x,type=3, detailed=TRUE)
-# Hpotezė apie faktorių sąveikos nebuvimą neatmetama
+# Hipotezė apie faktorių sąveikos nebuvimą neatmetama
+anova_test(result ~ attendance + daily_study_hours + parental_education * test_prep_course, data = x, type = 3, detailed = TRUE)
 
 
-model <- anova_test(result~attendance + daily_study_hours + parental_education+special_coaching,data=x,type=3, detailed=TRUE)
-
-model_null <- anova_test(result~parental_education*special_coaching, data=x, type=3)
-model_null
-
-model_null <- anova_test(result~parental_education+special_coaching, data=x, type=3)
-
-
+model <- anova_test(result ~ attendance + daily_study_hours + parental_education + test_prep_course, data = x, type = 3, detailed = TRUE)
 model
 ```
 
 ```{r}
-# Modelio prielaidos
-model_lm <- aov(result~ parental_education+ special_coaching,data=x)
+# Modelio prielaidų patikrinimas
+model_aov <- aov(result ~ attendance + daily_study_hours + parental_education + test_prep_course, data = x)
 
-leveneTest(result~combined,data=x)
-shapiro.test(resid(model_lm))
+plot(model_aov)
 
-plot(model_lm)
-plot(cooks.distance(model_lm))
-plot(hatvalues(model_lm))
+leveneTest(result ~ combined, data = x, center = "mean")
+shapiro.test(resid(model_aov))
 
 
+# Tiesinis ryšys tarp kovariančių ir priklausomo kintamojo
+ggplot(x, aes(attendance, result, color = combined)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = FALSE) +
+  theme_minimal() +
+  facet_wrap(vars(combined))
 
-new_model <- aov(result_transformed ~ parental_education + special_coaching,data=x)
-# Tiesinis ryšys
-ggplot(x,aes(attendance,result,color=combined)) + geom_point() + geom_smooth(method="lm",se=FALSE) +
-  theme_minimal() + facet_wrap(vars(combined))
-
-
-ggplot(x,aes(daily_study_hours,result,color=combined)) + geom_point() + geom_smooth(method="lm",se=FALSE) + theme_minimal() + facet_wrap(vars(combined))
+ggplot(x, aes(daily_study_hours, result, color = combined)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = FALSE) +
+  theme_minimal() +
+  facet_wrap(vars(combined))
 ```
 
 
 ```{r}
 library(emmeans)
 
-res<- x %>% group_by(special_coaching) %>% emmeans_test(result~parental_education,covariate = c(daily_study_hours,attendance),  p.adjust.method = "bonferroni") 
-
+res <- x %>% emmeans_test(result ~ parental_education, covariate = c(daily_study_hours, attendance), model = model_aov)
+res
 get_emmeans(res)
 ```
-
-
-
-```{r}
-g <- read_csv(".csv")
-```
-
-
-
-
-```{r}
-
-x<-readxl::read_xlsx("HighSchool.xlsx",sheet = 1) %>% clean_names()
-```
-
-
-```{r}
-x <- x %>%
-  mutate(combined = factor(paste(parental_education,special_coaching))) %>%
-  drop_na()
-
-```
-
-
-```{r}
-```
-
-
-```{r}
-```
-
-
-```{r}
-```
-
-
-```{r}
-```
-
