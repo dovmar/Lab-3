@@ -79,13 +79,13 @@ anova_test(result ~ attendance * combined + daily_study_hours * combined, data =
 anova_test(result ~ attendance + daily_study_hours + parental_education * test_prep_course, data = x, type = 3, detailed = TRUE)
 
 
-model <- anova_test(result ~ attendance + daily_study_hours + parental_education + test_prep_course, data = x, type = 3, detailed = TRUE)
+model <- anova_test(result ~  parental_education + test_prep_course + attendance + daily_study_hours, data = x, type = 3, detailed = TRUE)
 model
 ```
 
 ```{r}
 # Modelio prielaidų patikrinimas
-model_aov <- aov(result ~ attendance + daily_study_hours + parental_education + test_prep_course, data = x)
+model_aov <- aov(result ~ parental_education + test_prep_course + attendance + daily_study_hours, data = x)
 
 plot(model_aov)
 
@@ -111,7 +111,7 @@ ggplot(x, aes(daily_study_hours, result, color = combined)) +
 ```{r}
 library(emmeans)
 
-res <- x %>% emmeans_test(result ~ parental_education, covariate = c(daily_study_hours, attendance), model = model_aov)
+res <- x %>% emmeans_test(result ~ parental_education, model = model_aov,p.adjust.method = "tukey")
 res
 get_emmeans(res)
 ```
