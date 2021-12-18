@@ -6,8 +6,31 @@ RUN;
 
 
 /* Hipotezė apie krypties koeficientų lygybę*/
-PROC GLM DATA=data; CLASS combined;
-MODEL result = combined daily_study_hours*combined attendance*combined / SS3; 
+PROC SORT data=DATA out=_ScatterTaskData;
+	BY test_prep_course;
+RUN;
+
+PROC SGPLOT data=_ScatterTaskData;
+	by test_prep_course;
+	SCATTER x=attendance y=result / group=parental_education;
+	REG x=attendance y=result / group=parental_education;
+	XAXIS grid;
+	YAXIS grid;
+RUN;
+
+	
+PROC SGPLOT data=_ScatterTaskData;
+	by test_prep_course;
+	SCATTER x=daily_study_hours y=result / group=parental_education;
+	REG x=daily_study_hours y=result / group=parental_education;
+	XAXIS grid;
+	YAXIS grid;
+RUN;
+
+
+PROC GLM DATA=data plots=NONE;
+CLASS combined;
+MODEL result = combined attendance daily_study_hours / SS3; 
 RUN;
 
 
@@ -22,8 +45,8 @@ RUN;
 /* Vidurkių palyginimai */
 PROC GLM DATA=data plots=ALL;
 CLASS parental_education test_prep_course;
-MODEL result = parental_education test_prep_course daily_study_hours attendance / SS3; 
-LSMEANS parental_education / stderr pdiff adjust=bon;
+MODEL result = parental_education test_prep_course attendance daily_study_hours / SS3; 
+LSMEANS parental_education / stderr pdiff adjust=tukey;
 OUTPUT out=res residual=liekanos;
 RUN;
 
@@ -34,11 +57,17 @@ VAR liekanos;
 RUN;
 
 
-/* Dispersijų lygybėstestas */
+/* Dispersijų lygybės testas */
 PROC GLM DATA=data plots=none;
 CLASS combined;
 MODEL result = combined;
 MEANS combined / HOVTEST=levene(type=abs);
 RUN;
 
-
+/* Palyginimui modelis be kovariančių */
+PROC GLM DATA=data plots=ALL;
+CLASS parental_education test_prep_course;
+MODEL result = parental_education test_prep_course attendance daily_study_hours / SS3; 
+LSMEANS parental_education / stderr pdiff adjust=tukey;
+OUTPUT out=res residual=liekanos;
+RUN;
