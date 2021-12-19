@@ -30,7 +30,7 @@ RUN;
 
 PROC GLM DATA=data plots=NONE;
 CLASS combined;
-MODEL result = combined attendance daily_study_hours / SS3; 
+MODEL result = combined attendance daily_study_hours combined*attendance combined*daily_study_hours / SS3; 
 RUN;
 
 
@@ -68,6 +68,6 @@ RUN;
 PROC GLM DATA=data plots=ALL;
 CLASS parental_education test_prep_course;
 MODEL result = parental_education test_prep_course attendance daily_study_hours / SS3; 
-LSMEANS parental_education / stderr pdiff adjust=tukey;
+LSMEANS parental_education / stderr pdiff;
 OUTPUT out=res residual=liekanos;
 RUN;

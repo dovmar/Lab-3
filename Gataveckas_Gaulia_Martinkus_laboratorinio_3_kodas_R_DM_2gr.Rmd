@@ -2,7 +2,7 @@
 title: "Kovariacinė Analizė"
 author: "Vainius Gataveckas, Matas Gaulia, Dovydas Martinkus"
 output:
-  word_document: default
+  _document: default
 ---
 
 
@@ -55,13 +55,13 @@ ggplot(x, aes(daily_study_hours, result, color = parental_education)) +
 
 
 # Kovariančių pasiskirstymas pagal faktorių lygmenis
-ggplot(x, aes(x = parental_education, y = result, color = special_coaching)) +
+ggplot(x, aes(x = parental_education, y = daily_study_hours, color = test_prep_course)) +
   geom_boxplot() +
   theme_minimal() +
   scale_color_brewer(palette = "Set2")
 
 
-ggplot(x, aes(x = parental_education, y = attendance, color = special_coaching)) +
+ggplot(x, aes(x = parental_education, y = attendance, color = test_prep_course)) +
   geom_boxplot() +
   theme_minimal() +
   scale_color_brewer(palette = "Set2")
@@ -111,7 +111,7 @@ ggplot(x, aes(daily_study_hours, result, color = combined)) +
 ```{r}
 library(emmeans)
 
-res <- x %>% emmeans_test(result ~ parental_education, model = model_aov,p.adjust.method = "tukey")
+res <- x %>% emmeans_test(result ~ parental_education, model = model_aov)
 res
 get_emmeans(res)
 ```
