@@ -46,13 +46,13 @@ ggplot(x, aes(daily_study_hours, result, color = parental_education)) +
 
 
 # Kovariančių pasiskirstymas pagal faktorių lygmenis
-ggplot(x, aes(x = parental_education, y = result, color = special_coaching)) +
+ggplot(x, aes(x = parental_education, y = daily_study_hours, color = test_prep_course)) +
   geom_boxplot() +
   theme_minimal() +
   scale_color_brewer(palette = "Set2")
 
 
-ggplot(x, aes(x = parental_education, y = attendance, color = special_coaching)) +
+ggplot(x, aes(x = parental_education, y = attendance, color = test_prep_course)) +
   geom_boxplot() +
   theme_minimal() +
   scale_color_brewer(palette = "Set2")
@@ -69,13 +69,13 @@ anova_test(result ~ attendance * combined + daily_study_hours * combined, data =
 anova_test(result ~ attendance + daily_study_hours + parental_education * test_prep_course, data = x, type = 3, detailed = TRUE)
 
 
-model <- anova_test(result ~ attendance + daily_study_hours + parental_education + test_prep_course, data = x, type = 3, detailed = TRUE)
+model <- anova_test(result ~  parental_education + test_prep_course + attendance + daily_study_hours, data = x, type = 3, detailed = TRUE)
 model
 
 
 ## ------------------------------------------------------------------------------------------------------------
 # Modelio prielaidų patikrinimas
-model_aov <- aov(result ~ attendance + daily_study_hours + parental_education + test_prep_course, data = x)
+model_aov <- aov(result ~ parental_education + test_prep_course + attendance + daily_study_hours, data = x)
 
 plot(model_aov)
 
@@ -100,7 +100,7 @@ ggplot(x, aes(daily_study_hours, result, color = combined)) +
 ## ------------------------------------------------------------------------------------------------------------
 library(emmeans)
 
-res <- x %>% emmeans_test(result ~ parental_education, covariate = c(daily_study_hours, attendance), model = model_aov)
+res <- x %>% emmeans_test(result ~ parental_education, model = model_aov)
 res
 get_emmeans(res)
 

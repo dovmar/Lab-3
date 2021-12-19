@@ -87,7 +87,7 @@ model
 # Modelio prielaidų patikrinimas
 model_aov <- aov(result ~ parental_education + test_prep_course + attendance + daily_study_hours, data = x)
 
-plot(model_aov)
+plot(model)
 
 leveneTest(result ~ combined, data = x, center = "mean")
 shapiro.test(resid(model_aov))
