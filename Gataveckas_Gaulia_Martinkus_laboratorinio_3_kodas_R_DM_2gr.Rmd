@@ -109,9 +109,15 @@ ggplot(x, aes(daily_study_hours, result, color = combined)) +
 
 
 ```{r}
+# Kadangi abi kovariantės nebuvo statistiškai reikšmingos pasirenkamas 
+  # modelis be kovarančių
 library(emmeans)
+
+anova_test(result ~ parental_education + test_prep_course, data = x, type = 3, detailed = TRUE)
+model_aov <- aov(result ~ parental_education + test_prep_course, data = x)
 
 res <- x %>% emmeans_test(result ~ parental_education, model = model_aov)
 res
+
 get_emmeans(res)
 ```

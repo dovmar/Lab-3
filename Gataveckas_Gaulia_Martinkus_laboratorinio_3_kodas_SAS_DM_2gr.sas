@@ -4,6 +4,8 @@ PROC IMPORT DATAFILE='/home/u45871880/high_school_modified.csv'
 	GETNAMES=YES;
 RUN;
 
+PROC PRINT DATA=data;
+RUN;
 
 /* Hipotezė apie krypties koeficientų lygybę*/
 PROC SORT data=DATA out=_ScatterTaskData;
@@ -46,7 +48,7 @@ RUN;
 PROC GLM DATA=data plots=ALL;
 CLASS parental_education test_prep_course;
 MODEL result = parental_education test_prep_course attendance daily_study_hours / SS3; 
-LSMEANS parental_education / stderr pdiff adjust=tukey;
+LSMEANS parental_education / stderr pdiff adjust=bon;
 OUTPUT out=res residual=liekanos;
 RUN;
 
@@ -64,10 +66,11 @@ MODEL result = combined;
 MEANS combined / HOVTEST=levene(type=abs);
 RUN;
 
-/* Palyginimui modelis be kovariančių */
+/* Abi kovariantės statistiškai nereikšmingos */
+/* Naudojamas modelis be kovariančių */
 PROC GLM DATA=data plots=ALL;
 CLASS parental_education test_prep_course;
-MODEL result = parental_education test_prep_course attendance daily_study_hours / SS3; 
-LSMEANS parental_education / stderr pdiff;
+MODEL result = parental_education test_prep_course/ SS3; 
+LSMEANS parental_education / stderr pdiff adjust=bon;
 OUTPUT out=res residual=liekanos;
 RUN;
